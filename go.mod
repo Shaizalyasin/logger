@@ -1,3 +1,3 @@
-module github.com/Shaizalyasin/logger
+module github.com/Shaizalyasin/logger/v2
 
 go 1.20
