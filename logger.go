@@ -8,6 +8,10 @@ func Error(data Interface{}){
 fmt.Println("Log error: ", data)
 }
 
-func Warning(data Interface){}{
+func Warning(data Interface{}){
 fmt.Println("Warning info: ", data)
+}
+
+func Fatal(data Interface{}){
+	fmt.Println("Log fatal: ", data)
 }
